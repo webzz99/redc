@@ -1,0 +1,13 @@
+.notfound {
+  text-align: center;
+  margin-top: 100px;
+  height: 100vh;
+}
+
+.notfound h1 {
+  color: red;
+}
+
+.notfound button {
+  background-color: #ccc;
+}

@@ -1,0 +1,40 @@
+.postpage-container,
+.postcomment-container,
+.comment-edit {
+  max-width: 70vw;
+  margin: 0 auto;
+  margin-top: 3vh;
+}
+
+.postcomment-container {
+  padding-bottom: 2vh;
+}
+
+.postpage-container {
+  background-color: #ccc;
+  border-radius: 5%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.yesvote {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3px;
+}
+
+.up {
+  background-color: yellow;
+  color: blue !important;
+  padding: 5px !important;
+}
+
+.up:hover {
+  padding: 5 !important;
+
+}
+
+.down {
+  background-color: red;
+  padding: 5px;
+}

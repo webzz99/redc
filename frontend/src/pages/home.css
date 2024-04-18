@@ -1,0 +1,100 @@
+.home {
+  height: 100vh;
+}
+
+.home .post:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 10px;
+  /* padding: 0 10px; */
+  /* margin: 3vh 0; */
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.post {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+
+.home a {
+  text-decoration: none;
+  color: black;
+}
+
+.post hr {
+  margin: 20px 0;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.post_delete {
+  background-color: red;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 10%;
+  display: flex;
+  gap: 2px;
+}
+
+.post_delete:hover {
+  background-color: #fff;
+  color: orange;
+}
+
+.post-body {
+  max-width: 70vw;
+
+}
+
+
+
+.post-header .post-join {
+  padding: 5px;
+  background-color: rgb(94, 94, 235);
+  border-radius: 10px;
+}
+
+.post-join:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+.post-footer {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.post-footer div:hover {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 4px;
+  color: orange;
+}
+
+.post-footer div {
+  display: flex;
+  gap: 2px;
+}
+
+.post-createdtime {
+  margin-left: auto;
+  /* margin-left: 20px; */
+  margin-right: 20px;
+}
+
+@media (max-width:800px) {
+  .post-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

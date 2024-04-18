@@ -1,0 +1,16 @@
+.indipost-comment {
+  width: 70vw;
+  margin: 0 auto;
+  background-color: #ccc;
+  border-radius: 5%;
+  padding: 10px 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.indipost-comment:hover {
+  background-color: #fff;
+  color: #111
+}
