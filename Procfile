@@ -1,2 +1,2 @@
 web: gunicorn app:start.py
-worker: node index.js
+worker: node app.js
