@@ -1,4 +1,3 @@
-
-web: ./start_server.sh
-worker: node index.js
+web: gunicorn start.py:app
+web: ./start.sh
 
