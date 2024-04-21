@@ -1,7 +1,9 @@
 # custom startup script for heroku
 #!/bin/sh
-cd server && gunicorn run:app &
 
+cd server && gunicorn run:app &
+export PORT=$(heroku config:get PORT)
+gunicorn run:app -b 0.0.0.0:$PORT
 # Install required packages from requirements.txt
 echo "Installing required packages..."
 pip install -r requirements.txt
