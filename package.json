@@ -4,6 +4,6 @@
       "npm": "10.2.4"
     },
     "scripts": {
-      "heroku-postbuild": "cd ui && npm install && npm run build"
+      "heroku-postbuild": "cd frontend && npm install && npm run build"
     }
   }
