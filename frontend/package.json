@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "heroku-postbuild": "cd ui && npm install && npm run build"
-}
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +19,7 @@
     "yup": "^1.4.0"
   },
   "scripts": {
+    "heroku-postbuild": "cd ui && npm install && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
