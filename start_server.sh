@@ -1,5 +1,5 @@
 #!/bin/bash
-cd server && gunicorn run:app
+
 # Install required packages from requirements.txt
 echo "Installing required packages..."
 pip install -r requirements.txt
